@@ -44,3 +44,6 @@ gem 'spring',        group: :development
 
 #FOR HEROKU
 gem 'rails_12factor', group: :production
+#FOR Windows 64 bit
+gem 'tzinfo'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
