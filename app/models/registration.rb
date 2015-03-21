@@ -8,6 +8,7 @@ class Registration < ActiveRecord::Base
         invoice: id,
         item_name: "KB Talent Registration Fee",
         amount: 25,
+        no_shipping: 1,
         quantity: '1',
         notify_url: "#{Rails.application.secrets.app_host}hook"
     }
